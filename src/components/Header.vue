@@ -1,6 +1,11 @@
 <script>
+import Mustache from './partials/Mustache.vue';
+
 export default {
-  name: "Header"
+  name: "Header",
+  components:{
+    Mustache
+  }
 }
 </script>
 
@@ -13,7 +18,7 @@ export default {
       </div>
       <nav class="center">
         <ul>
-          <li>Home</li>
+          <li><div class="icon-white"><Mustache /></div>Home</li>
           <li>Pages</li>
           <li>Menu</li>
           <li><img src="/img/h5-logo-divided-header.png" alt=""></li>
@@ -29,7 +34,9 @@ export default {
     </div>
 
     <!-- Slider -->
-    <h1>Slider</h1>
+    <div>
+      Slider
+    </div>
   </header>
 </template>
 
@@ -37,13 +44,18 @@ export default {
 @use "../scss/partials/var" as *;
 
   header{
-    background-color: $header-bg-color;
+    // background-color: $header-bg-color;
+    background-image: url("/public/img/cielostellato.PNG");
+    background-position: bottom;
     color: $header-text-color;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
 
     .menu{
       padding: 8px;
       width: 90%;
-      max-width: 1100px;
+      max-width: 1200px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
@@ -54,7 +66,7 @@ export default {
         .btn-orange{
           background-color: $btn-default;
           white-space: nowrap;
-          padding: 8px 16px;
+          padding: 12px 28px;
         }
       }
       >.center{
@@ -66,6 +78,10 @@ export default {
           align-items: center;
           gap: 32px;
           margin: 0;
+          li{
+            display: flex;
+            align-items: center;
+          }
         }
         img{
           width: 140px;
