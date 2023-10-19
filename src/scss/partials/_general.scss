@@ -1,3 +1,4 @@
+// Generali
 a{
   text-decoration: none;
 }
@@ -6,11 +7,16 @@ img{
   max-width: 100%;
 }
 
+// Icon svg
+// -----------------------------------------------
 .icon-white{
   fill: $white-color;
   margin-right: 4px;
 }
+// -----------------------------------------------
 
+// Carousel setting
+// -----------------------------------------------
 .btn-white{
   background-color: $white-color;
   color: $orange-color;
@@ -24,3 +30,25 @@ img{
   letter-spacing: 2px;
   font-weight: bold;
 }
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 0;
+  opacity: 1;
+}
+
+.carousel-control-prev{
+  .btn-white{
+    transform: rotate(90deg);
+    position: absolute;
+    left: -60px;
+  }
+}
+.carousel-control-next{
+  .btn-white{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -60px;
+  }
+}
+// -----------------------------------------------

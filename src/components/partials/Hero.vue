@@ -63,25 +63,4 @@ export default {
   .carousel-inner{
     overflow: initial;
   }
-
-  .carousel-control-prev, 
-  .carousel-control-next{
-    width: 0;
-    opacity: 1;
-  }
-
-  .carousel-control-prev{
-    span{
-      transform: rotate(90deg);
-      position: absolute;
-      left: -60px;
-    }
-  }
-  .carousel-control-next{
-    span{
-      transform: rotate(-90deg);
-      position: absolute;
-      right: -60px;
-    }
-  }
 </style>

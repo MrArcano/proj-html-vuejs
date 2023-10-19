@@ -17,28 +17,28 @@ export default {
         <div class="top">
           <h6>FIND OUR RESTAURANTS</h6> 
           <p>
-            1614 E. Bell Rd # 104. <br>
-            Salerno, AZ 85022 <br>
-            (602) 867-1010 <br>
+            <span>1614 E. Bell Rd #104.</span> <br>
+            <span>Salerno, AZ 85022</span> <br>
+            <span>(602) 867-1010</span> <br>
           </p> 
           <p>
-            204 E. Pizzetta Tommaso <br>
-            Sorrento, AZ 85022 <br>
-            (358) 867-1010 <br>
+            <span>204 E. Pizzetta Tommaso</span> <br>
+            <span>Sorrento, AZ 85022</span> <br>
+            <span>(358) 867-1010</span> <br>
           </p>
           <p>
-            Vale Puglia 54 <br>
-            Torre Del Greco AZ 85022 <br>
-            (359) 867-1010 <br>
+            <span>Vale Puglia 54</span> <br>
+            <span>Torre Del Greco AZ 85022</span> <br>
+            <span>(359) 867-1010</span> <br>
           </p>
           <p>
-            Corso Itali AA <br>
-            Naples, AZ 85022 <br>
-            (989) 867-1010 <br>
+            <span>Corso Itali AA</span> <br>
+            <span>Naples, AZ 85022</span> <br>
+            <span>(989) 867-1010</span> <br>
           </p>
         </div>
         <div class="bottom">
-          <p class="d-flex gap-1 gold-text">Created with <Heart /> <span class="green-cyan-text">by Qode Interactive</span></p>
+          <p class="d-flex gap-1 gold-text"><span>Created with <Heart /> by </span><span class="green-cyan-text">Qode Interactive</span></p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ export default {
           <span>9:00 - 22:00</span>
         </p>
 
-        <p><strong>FOLLOW US:</strong><span>[icone]</span></p>
+        <p><strong>FOLLOW US: </strong><span>[icone]</span></p>
       </div>
 
       <div class="right">
@@ -96,7 +96,9 @@ footer{
   .footer-text{
     padding: 90px 50px 50px;
 
-
+    span{
+      font-family: 'Noto Sans', sans-serif;
+    }
 
     h5{
       color: $white-color;
@@ -129,6 +131,15 @@ footer{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      .bottom{
+        white-space: nowrap;
+        p{
+          span{
+            display: flex;
+            gap: 4px;
+          }
+        }
+      }
     }
 
     .right{
