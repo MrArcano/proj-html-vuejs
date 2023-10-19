@@ -53,11 +53,12 @@ import Magnifying from './svg_vue/Magnifying.vue';
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid white; /* debug */
+    //border: 1px solid white; 
+    /* debug */
     >.left{
       width: 15%;
       .btn-orange{
-        background-color: $btn-default;
+        background-color: $orange-color;
         white-space: nowrap;
         padding: 12px 28px;
       }
@@ -86,8 +87,8 @@ import Magnifying from './svg_vue/Magnifying.vue';
       .shopping-btn{
         position: relative;
         .shopping-counter{
-          background-color: $header-text-color;
-          color: $btn-default;
+          background-color: $white-color;
+          color: $orange-color;
           width: 15px;
           height: 15px;
           border-radius: 50%;
