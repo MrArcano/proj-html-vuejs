@@ -1,41 +1,42 @@
 <script>
-import Mustache from './partials/Mustache.vue';
+import Menu from './partials/Menu.vue'
 
 export default {
   name: "Header",
   components:{
-    Mustache
+    Menu
   }
 }
 </script>
 
 <template>
   <header>
-    <!-- Menu -->
-    <div class="menu">
-      <div class="left">
-        <span class="btn-orange">ORDER ONLINE</span>
-      </div>
-      <nav class="center">
-        <ul>
-          <li><div class="icon-white"><Mustache /></div>Home</li>
-          <li>Pages</li>
-          <li>Menu</li>
-          <li><img src="/img/h5-logo-divided-header.png" alt=""></li>
-          <li>Event</li>
-          <li>Blog</li>
-          <li>Landing</li>
-        </ul>
-      </nav>
-      <div class="right">
-        <span>Cart</span>
-        <span>Search</span>
-      </div>
-    </div>
+    <Menu />
+    
 
     <!-- Slider -->
     <div>
-      Slider
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </header>
 </template>
@@ -51,49 +52,5 @@ export default {
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 2px;
-
-    .menu{
-      padding: 8px;
-      width: 90%;
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border: 1px solid white;
-      >.left{
-        width: 15%;
-        .btn-orange{
-          background-color: $btn-default;
-          white-space: nowrap;
-          padding: 12px 28px;
-        }
-      }
-      >.center{
-        display: flex;
-        align-items: center;
-        ul{
-          list-style: none;
-          display: flex;
-          align-items: center;
-          gap: 32px;
-          margin: 0;
-          li{
-            display: flex;
-            align-items: center;
-          }
-        }
-        img{
-          width: 140px;
-          min-width: 140px;
-        }
-      }
-      >.right{
-        width: 15%;
-        display: flex;
-        justify-content: flex-end;
-        gap: 24px;
-      }
-    }
   }
 </style>
