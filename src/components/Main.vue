@@ -30,6 +30,7 @@ export default {
   .image{
     background-image: url("/img/h3-background-img.jpg");
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 550px;
   }
@@ -67,11 +68,35 @@ export default {
     height: calc(100% - 200px);
   }
 
-  
-  
+  #icons > div:nth-child(1){
+    background-position: bottom right;
+  }
+  #icons > div:nth-child(2){
+    background-position: bottom center ;
+  }
+  #icons > div:nth-child(3){
+    background-position: bottom left;
+  }
+  #icons > div:nth-child(4){
+    background-position: center right;
+  }
   #icons > div:nth-child(5){
     width: calc(100% - 200px);
     height: calc(100% - 200px);
     background-position: top;
   }
+  #icons > div:nth-child(6){
+    background-position: center left;
+  }
+  #icons > div:nth-child(7){
+    background-position: top right;
+  }
+  #icons > div:nth-child(8){
+    background-position: top center;
+  }
+  #icons > div:nth-child(9){
+    background-position: top left;
+  }
+
+
 </style>
