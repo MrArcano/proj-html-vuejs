@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <header>
+  <header class="bg-star">
     <Menu />
     <Hero />
   </header>
@@ -22,8 +22,7 @@ export default {
 @use "../scss/partials/var" as *;
 
   header{
-    background-image: url("/img/cielostellato.PNG");
-    background-position: bottom;
+    
     color: $white-color;
     text-transform: uppercase;
     font-size: 0.8rem;

@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <footer class="d-flex">
+  <footer class="d-flex bg-star">
 
     <div class="footer-text d-flex justify-content-between w-50">
       <div class="left">
@@ -85,8 +85,6 @@ export default {
 @use "../scss/partials/var" as *;
 
 footer{
-  background-image: url("/img/cielostellato.PNG");
-  background-size: cover;
   height: 600px;
   overflow: hidden;
 

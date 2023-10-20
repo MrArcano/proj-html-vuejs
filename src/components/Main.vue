@@ -1,11 +1,14 @@
 <script>
 import SplitImg from './partials/SplitImg.vue'
+import People from './partials/People.vue'
+
 
 
 export default {
   name: "Main",
   components:{
-    SplitImg
+    SplitImg,
+    People
   }
 }
 </script>
@@ -25,7 +28,7 @@ export default {
       <SplitImg />
     </div>
     <div>
-      <h1>People</h1>
+      <People />
     </div>
     <div>
       <h1>Brands</h1>

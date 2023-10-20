@@ -52,3 +52,16 @@ img{
   }
 }
 // -----------------------------------------------
+
+// Bg star
+.bg-star{
+  background-image: url("/img/cielostellato.PNG");
+  background-position: bottom;
+}
+
+.bg-dot{
+  background-image: radial-gradient($dot-color 1px, transparent 1px), radial-gradient($dot-color 1px, transparent 1px);
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+  background-color: $white-color;
+}
