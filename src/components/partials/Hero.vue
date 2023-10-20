@@ -1,6 +1,13 @@
 <script>
+import { store } from '../../data/store';
+
 export default {
-  name: "Hero"
+  name: "Hero",
+  data() {
+    return {
+      store
+    }
+  },
 }
 </script>
 
@@ -8,23 +15,17 @@ export default {
   <div class="carousel-container">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div
+          v-for="(el,index) in store.heroCarousel"
+          :key="'hCar_'+index"
+          class="carousel-item"
+          :class="{'active' : index === 0}">
+
           <div class="item-container">
-            <img src="/img/h3-rev-img-1.png" alt="...">
-            <img class="hover-pizza" src="/img/h3-rev-img-2.png" alt="...">
+            <img :src="'/img/'+ el.hrefBack" :alt="el.hrefBack">
+            <img class="hover-pizza" :src="'/img/'+ el.hrefFront" :alt="el.hrefFront">
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="item-container">
-            <img src="/img/h3-rev-img-3.png" alt="...">
-            <img class="hover-pizza" src="/img/h3-rev-img-4.png" alt="...">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="item-container">
-            <img src="/img/h3-rev-img-5.png" alt="...">
-            <img class="hover-pizza" src="/img/h3-rev-img-6.png" alt="...">
-          </div>
+          
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
