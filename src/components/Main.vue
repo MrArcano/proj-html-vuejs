@@ -1,6 +1,6 @@
 <script>
 import SplitImg from './partials/SplitImg.vue'
-import People from './partials/People.vue'
+import Team from './partials/Team.vue'
 
 
 
@@ -8,7 +8,7 @@ export default {
   name: "Main",
   components:{
     SplitImg,
-    People
+    Team
   }
 }
 </script>
@@ -28,7 +28,7 @@ export default {
       <SplitImg />
     </div>
     <div>
-      <People />
+      <Team />
     </div>
     <div>
       <h1>Brands</h1>

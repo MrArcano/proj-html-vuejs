@@ -3,42 +3,56 @@ import Mustache from './svg_vue/Mustache.vue';
 import Scooter from './svg_vue/Scooter.vue';
 import Magnifying from './svg_vue/Magnifying.vue';
 
+import { store } from '../../data/store';
+
   export default {
   name: "Menu",
   components:{
     Mustache,
     Scooter,
     Magnifying
-  }
+  },
+  data() {
+    return {
+      store
+    }
+  },
 }
 </script>
 
 <template>
   <div class="menu">
     <div class="left">
-      <span class="btn-orange">ORDER ONLINE</span>
+      <a href="#" class="btn-orange">ORDER ONLINE</a>
     </div>
     <nav class="center">
       <ul>
-        <li class="d-flex align-items-center"><div class="icon-white"><Mustache /></div>Home</li>
-        <li>Pages</li>
-        <li>Menu</li>
-        <li><img src="/img/h5-logo-divided-header.png" alt=""></li>
-        <li>Event</li>
-        <li>Blog</li>
-        <li>Landing</li>
+        <li v-for="(el,index) in store.navMenu" :key="'elMenu_'+index">
+          <a :href="el.href">
+            <div v-if="el.imgSrc === null" class="d-flex align-items-center">
+              <div v-if="el.icon" class="icon-white"><Mustache /></div>{{ el.title }}
+            </div>
+            <img v-else :src="el.imgSrc" :alt="el.title">
+          </a>
+        </li>
       </ul>
     </nav>
     <div class="right">
-      <div class="shopping-btn d-flex align-items-center">
 
+      <a href="#" class="shopping-btn d-flex align-items-center">
         <div class="icon-white">
           <Scooter />
         </div>
         <span>Cart</span>
-        <span class="shopping-counter">5</span>
-      </div>
-      <div class="d-flex align-items-center"><div class="icon-white"><Magnifying /></div><span>Search</span></div>
+        <span class="shopping-counter">{{ store.shoppingCounter }}</span>
+      </a>
+
+      <a href="#" class="d-flex align-items-center">
+        <div class="icon-white">
+          <Magnifying />
+        </div>
+        <span>Search</span>
+      </a>
     </div>
   </div>
 </template>
@@ -53,8 +67,11 @@ import Magnifying from './svg_vue/Magnifying.vue';
     display: flex;
     justify-content: space-between;
     align-items: center;
-    //border: 1px solid white; 
-    /* debug */
+
+    a{
+      color: $white-color;
+    }
+
     >.left{
       width: 15%;
       .btn-orange{
