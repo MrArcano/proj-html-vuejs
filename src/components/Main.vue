@@ -1,14 +1,14 @@
 <script>
-import SplitImg from './partials/SplitImg.vue'
-import Team from './partials/Team.vue'
-
-
+import SplitImg from './partials/SplitImg.vue';
+import Team from './partials/Team.vue';
+import PastEvent from './partials/PastEvent.vue';
 
 export default {
   name: "Main",
   components:{
     SplitImg,
-    Team
+    Team,
+    PastEvent
   }
 }
 </script>
@@ -16,7 +16,7 @@ export default {
 <template>
   <main>
     <div>
-      <h1>Events</h1>
+      <PastEvent />
     </div>
     <div>
       <h1>Post</h1>

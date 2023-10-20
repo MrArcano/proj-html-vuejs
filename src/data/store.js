@@ -66,4 +66,62 @@ export const store = reactive({
     },
   ],
   // -----------------------------------------------------
+  // Team DATA
+  // -----------------------------------------------------
+  team:[
+    {
+      name: "Danny Hood",
+      role: "Chef",
+      img: "h1-team-1a-700x700.jpg",
+      link:{
+        instagram: "#",
+        twitter: "#",
+        facebook: "#",
+      },
+    },
+    {
+      name: "Joanne Parks",
+      role: "Wait Staff",
+      img: "h1-team-2a.jpg",
+      link:{
+        instagram: "#",
+        twitter: "#",
+        facebook: "#",
+      },
+    },
+    {
+      name: "Frank Bailey",
+      role: "Kitchen Porter",
+      img: "h1-team-4a.jpg",
+      link:{
+        instagram: "#",
+        twitter: "#",
+        facebook: "#",
+      },
+    },
+    {
+      name: "Elizabeth Yoder",
+      role: "Dishwasher",
+      img: "h1-team-3a.jpg",
+      link:{
+        instagram: "#",
+        twitter: "#",
+        facebook: "#",
+      },
+    }
+  ],
+  pastEvent:[
+    {
+      img: "h3-img-1.jpg"
+    },
+    {
+      img: "h3-img-2.jpg"
+    },
+    {
+      img: "h3-img-3.jpg"
+    },
+    {
+      img: "h3-img-4.jpg"
+    },
+  ]
 })
