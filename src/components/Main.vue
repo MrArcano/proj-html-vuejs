@@ -6,6 +6,7 @@ import Posts from './partials/Posts.vue';
 import MenuSpecial from './partials/MenuSpecial.vue';
 import Brands from './partials/Brands.vue';
 import PizzaList from './partials/PizzaList.vue';
+import PizzaDeals from './partials/PizzaDeals.vue';
 
 export default {
   name: "Main",
@@ -16,7 +17,8 @@ export default {
     Posts,
     MenuSpecial,
     Brands,
-    PizzaList
+    PizzaList,
+    PizzaDeals
   }
 }
 </script>
@@ -45,7 +47,7 @@ export default {
       <PizzaList />
     </div>
     <div>
-      <h1>Pizza Deals</h1>
+      <PizzaDeals />
     </div>
     <div>
       <h1>Book table</h1>

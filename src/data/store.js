@@ -182,6 +182,77 @@ export const store = reactive({
     },
     {
       href:"h1-clients-img-5.png",
+    }
+  ],
+  // -----------------------------------------------------
+  // Pizza list DATA
+  // -----------------------------------------------------
+  pizzaList:[
+    {
+      name: "Bismarck",
+      img: "h3-product-img-1a-100x100.png",
+      newPrice: "$30.00",
+      oldPrice: "$25.00",
+      isSold: false,
+    },
+    {
+      name: "Fiori di zucca",
+      img: "h3-product-img-2a-150x150.png",
+      newPrice: "$7.00 - $50.00",
+      oldPrice: "",
+      isSold: false,
+    },
+    {
+      name: "Valdostana",
+      img: "h3-product-img-3a-150x150.png",
+      newPrice: "$55.00",
+      oldPrice: "",
+      isSold: true,
+    },
+    {
+      name: "Pizza tartufata",
+      img: "h3-product-img-4a-150x150.png",
+      newPrice: "$45.00",
+      oldPrice: "",
+      isSold: false,
+    },
+    {
+      name: "Francescana",
+      img: "h3-product-img-5a-150x150.png",
+      newPrice: "$25.00",
+      oldPrice: "",
+      isSold: false,
+    },
+    {
+      name: "Campagnola",
+      img: "h3-product-img-6a-100x100.png",
+      newPrice: "$50.00 - $95.00",
+      oldPrice: "",
+      isSold: false,
+    },
+  ],
+  // -----------------------------------------------------
+  // Pizza list DATA
+  // -----------------------------------------------------
+
+  pizzaDeals:[
+    {
+      day: "02",
+      month: "NOV",
+      text: "Traditional Neopolitan pies in Kyoto pizza mercato",
+      locality: "204 E. Pizzetta Tommaso",
+    },
+    {
+      day: "03",
+      month: "NOV",
+      text: "TERARAZZA PATIO DINING SPACE OPENING THIS WEEKEND",
+      locality: "204 E. Pizzetta Tommaso",
+    },
+    {
+      day: "05",
+      month: "NOV",
+      text: "SIENNA PRIVATE DINING ROOM WITH STÉPHANE BRUNN",
+      locality: "204 E. Pizzetta Tommaso",
     },
   ]
 })
