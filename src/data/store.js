@@ -110,6 +110,9 @@ export const store = reactive({
       },
     }
   ],
+  // -----------------------------------------------------
+  // Past event DATA
+  // -----------------------------------------------------
   pastEvent:[
     {
       img: "h3-img-1.jpg"
@@ -123,5 +126,23 @@ export const store = reactive({
     {
       img: "h3-img-4.jpg"
     },
+  ],
+  // -----------------------------------------------------
+  // Post DATA
+  // -----------------------------------------------------
+  posts:[
+    {
+      text:"1. FORGET THE TRENDY PIZZA SHOPS, THIS HIDDEN SPOT MAKES THE BEST NEW YORK-STYLE PIZZA SLICE IN NAPLES",
+      source:"WASHINGTON POST 2018"
+    },
+    {
+      text:"2. FORGET THE TRENDY PIZZA SHOPS, THIS HIDDEN SPOT MAKES THE BEST NEW YORK-STYLE PIZZA SLICE IN NAPLES",
+      source:"WASHINGTON POST 2018"
+    },
+    {
+      text:"3. FORGET THE TRENDY PIZZA SHOPS, THIS HIDDEN SPOT MAKES THE BEST NEW YORK-STYLE PIZZA SLICE IN NAPLES",
+      source:"WASHINGTON POST 2018"
+    },
   ]
+
 })

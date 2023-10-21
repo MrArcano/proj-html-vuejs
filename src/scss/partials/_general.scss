@@ -51,6 +51,18 @@ img{
     right: -60px;
   }
 }
+
+.carousel-indicators{
+  margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: $gold-color;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  
+}
 // -----------------------------------------------
 
 // Bg star

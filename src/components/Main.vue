@@ -2,13 +2,15 @@
 import SplitImg from './partials/SplitImg.vue';
 import Team from './partials/Team.vue';
 import PastEvent from './partials/PastEvent.vue';
+import Posts from './partials/Posts.vue';
 
 export default {
   name: "Main",
   components:{
     SplitImg,
     Team,
-    PastEvent
+    PastEvent,
+    Posts
   }
 }
 </script>
@@ -19,7 +21,7 @@ export default {
       <PastEvent />
     </div>
     <div>
-      <h1>Post</h1>
+      <Posts />
     </div>
     <div>
       <h1>Pizza Special</h1>
