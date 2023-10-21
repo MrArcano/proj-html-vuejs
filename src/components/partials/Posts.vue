@@ -47,6 +47,7 @@ export default {
     background-size: cover;
     width: 100%;
     aspect-ratio: 1920/459;
+    overflow: hidden;
     position: relative;
     #carouselExampleAutoplaying2{
       top: 50%;

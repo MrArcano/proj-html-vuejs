@@ -3,6 +3,7 @@ import SplitImg from './partials/SplitImg.vue';
 import Team from './partials/Team.vue';
 import PastEvent from './partials/PastEvent.vue';
 import Posts from './partials/Posts.vue';
+import MenuSpecial from './partials/MenuSpecial.vue';
 
 export default {
   name: "Main",
@@ -10,7 +11,8 @@ export default {
     SplitImg,
     Team,
     PastEvent,
-    Posts
+    Posts,
+    MenuSpecial
   }
 }
 </script>
@@ -24,7 +26,7 @@ export default {
       <Posts />
     </div>
     <div>
-      <h1>Pizza Special</h1>
+      <MenuSpecial />
     </div>
     <div>
       <SplitImg />

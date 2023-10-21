@@ -28,6 +28,7 @@ export default {
 <style lang="scss" scoped>
   @use "../../scss/partials/var" as *;
   .card-csm{
+    cursor: pointer;
     width: calc(100% / 4);
     aspect-ratio: 1/1;
     position: relative;
