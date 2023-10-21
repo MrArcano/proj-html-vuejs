@@ -4,6 +4,8 @@ import Team from './partials/Team.vue';
 import PastEvent from './partials/PastEvent.vue';
 import Posts from './partials/Posts.vue';
 import MenuSpecial from './partials/MenuSpecial.vue';
+import Brands from './partials/Brands.vue';
+import PizzaList from './partials/PizzaList.vue';
 
 export default {
   name: "Main",
@@ -12,7 +14,9 @@ export default {
     Team,
     PastEvent,
     Posts,
-    MenuSpecial
+    MenuSpecial,
+    Brands,
+    PizzaList
   }
 }
 </script>
@@ -35,10 +39,10 @@ export default {
       <Team />
     </div>
     <div>
-      <h1>Brands</h1>
+      <Brands />
     </div>
     <div>
-      <h1>Pizza Menu</h1>
+      <PizzaList />
     </div>
     <div>
       <h1>Pizza Deals</h1>

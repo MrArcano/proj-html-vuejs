@@ -1,6 +1,18 @@
 <script>
+import SpecialCard from './SpecialCard.vue'
+import { store } from '../../data/store';
+
+
 export default {
-  name: "MenuSpecial"
+  name: "MenuSpecial",
+  components:{
+    SpecialCard
+  },
+  data() {
+    return {
+      store
+    }
+  },
 }
 </script>
 
@@ -12,32 +24,10 @@ export default {
     </div>
     <div class="right">
       <div class="special">
-        <h1>SPECIALS*</h1>
+        <h2>SPECIALS*</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quae.</p>
 
-        <div>
-          <span>$10</span>
-          <div>
-            <h1>COMBO PICCOLO</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, maxime.</p>
-          </div>
-        </div>
-
-        <div>
-          <span>$10</span>
-          <div>
-            <h1>COMBO PICCOLO</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, maxime.</p>
-          </div>
-        </div>
-
-        <div>
-          <span>$10</span>
-          <div>
-            <h1>COMBO PICCOLO</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, maxime.</p>
-          </div>
-        </div>
+        <SpecialCard v-for="(el,index) in store.menuSpecial" :key="'mSpec_'+index" :data="el" />
 
       </div>
     </div>
@@ -45,6 +35,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../../scss/partials/var" as *;
+
   .left,
   .right{
     width: 50%;
@@ -59,6 +51,8 @@ export default {
     left: 50%;
     transform: translate(-50%,-50%);
   }
+
+  
 
 
 </style>

@@ -7,6 +7,14 @@ img{
   max-width: 100%;
 }
 
+h1,h2,h3,h4,h5,h6{
+  color: $title-color;
+}
+
+p{
+  font-family: "Noto Sans", sans-serif;
+}
+
 // Icon svg
 // -----------------------------------------------
 .icon-white{

@@ -74,7 +74,6 @@ export default {
         color: $orange-color;
         font-size: 0.6rem;
         font-weight: bold;
-        
       }
     }
   }

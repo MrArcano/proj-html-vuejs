@@ -143,6 +143,45 @@ export const store = reactive({
       text:"3. FORGET THE TRENDY PIZZA SHOPS, THIS HIDDEN SPOT MAKES THE BEST NEW YORK-STYLE PIZZA SLICE IN NAPLES",
       source:"WASHINGTON POST 2018"
     },
+  ],
+  // -----------------------------------------------------
+  // Special menu DATA
+  // -----------------------------------------------------
+  menuSpecial:[
+    {
+      title: "Combo piccolo",
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, maxime.",
+      price: 10,
+    },
+    {
+      title: "Combo mezzo",
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, maxime.",
+      price: 20,
+    },
+    {
+      title: "Combo grande",
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, maxime.",
+      price: 30,
+    },
+  ],
+  // -----------------------------------------------------
+  // Brands DATA
+  // -----------------------------------------------------
+  brands:[
+    {
+      href:"h1-clients-img-4.png",
+    },
+    {
+      href:"h1-clients-img-3.png",
+    },
+    {
+      href:"h1-clients-img-1.png",
+    },
+    {
+      href:"h1-clients-img-2.png",
+    },
+    {
+      href:"h1-clients-img-5.png",
+    },
   ]
-
 })

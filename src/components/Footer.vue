@@ -88,7 +88,7 @@ footer{
   height: 600px;
   overflow: hidden;
 
-  color: $light-grey-color;
+  color: $p-color;
   letter-spacing: 1px;
 
   .footer-text{
