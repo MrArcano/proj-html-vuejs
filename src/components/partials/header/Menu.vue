@@ -1,9 +1,9 @@
 <script>
-import Mustache from './svg_vue/Mustache.vue';
-import Scooter from './svg_vue/Scooter.vue';
-import Magnifying from './svg_vue/Magnifying.vue';
+import Mustache from '../svg_vue/Mustache.vue';
+import Scooter from '../svg_vue/Scooter.vue';
+import Magnifying from '../svg_vue/Magnifying.vue';
 
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
   export default {
   name: "Menu",
@@ -58,7 +58,7 @@ import { store } from '../../data/store';
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
   .menu{
     padding: 8px;
     width: 90%;

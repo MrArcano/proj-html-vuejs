@@ -21,7 +21,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-  @use "../../scss/partials/var" as *;
+  @use "../../../scss/partials/var" as *;
 
   .card-csm{
     width: 250px;

@@ -18,7 +18,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
 
   p{
     color: $p-color;

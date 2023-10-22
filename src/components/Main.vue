@@ -1,12 +1,12 @@
 <script>
-import SplitImg from './partials/SplitImg.vue';
-import Team from './partials/Team.vue';
-import PastEvent from './partials/PastEvent.vue';
-import Posts from './partials/Posts.vue';
-import MenuSpecial from './partials/MenuSpecial.vue';
-import Brands from './partials/Brands.vue';
-import PizzaList from './partials/PizzaList.vue';
-import PizzaDeals from './partials/PizzaDeals.vue';
+import SplitImg from './partials/main/SplitImg.vue';
+import Team from './partials/main/Team.vue';
+import PastEvent from './partials/main/PastEvent.vue';
+import Posts from './partials/main/Posts.vue';
+import MenuSpecial from './partials/main/MenuSpecial.vue';
+import Brands from './partials/main/Brands.vue';
+import PizzaList from './partials/main/PizzaList.vue';
+import PizzaDeals from './partials/main/PizzaDeals.vue';
 
 export default {
   name: "Main",

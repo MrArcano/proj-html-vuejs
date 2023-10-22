@@ -1,5 +1,5 @@
 <script>
-import { store } from '../../data/store'
+import { store } from '../../../data/store'
 
 export default {
   name: "Brands",
@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
 .bg{
   background-color: $bg-brands;
   .box-image{

@@ -23,7 +23,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
 
 
 
@@ -32,7 +32,7 @@ export default {
     .left{
       text-align: center;
       h1{
-        color: $dark-orange-color;
+        color: $orange-color;
         margin: 0;
       }
     }

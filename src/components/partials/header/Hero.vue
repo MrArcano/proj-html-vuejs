@@ -1,5 +1,5 @@
 <script>
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
 export default {
   name: "Hero",
@@ -39,7 +39,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
 
   .carousel-container{
     padding-bottom: 60px;

@@ -1,6 +1,6 @@
 <script>
 import SpecialCard from './SpecialCard.vue'
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
 
 export default {
@@ -35,7 +35,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
 
   .left,
   .right{

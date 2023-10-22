@@ -1,5 +1,5 @@
 <script>
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
 export default {
   name: "Posts",
@@ -41,7 +41,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
   .posts{
     background-image: url("/img/h3-testimonials-bckgrnd.jpg");
     background-size: cover;

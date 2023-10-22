@@ -25,7 +25,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
 
 .pizza-list{
   padding: 64px 0;

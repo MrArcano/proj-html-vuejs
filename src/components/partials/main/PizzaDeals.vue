@@ -1,6 +1,6 @@
 <script>
 import NewEvent from './NewEvent.vue';
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
 
 export default {
@@ -34,7 +34,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
   .pizza-deals{
     height: 800px;
     .bg-star{

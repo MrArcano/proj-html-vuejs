@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 
 import PizzaCard from './PizzaCard.vue';
 
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
 export default {
   name: "SliderPizza",

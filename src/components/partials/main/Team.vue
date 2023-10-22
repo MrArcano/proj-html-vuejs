@@ -1,7 +1,7 @@
 <script>
 import MemberCard from './MemberCard.vue';
 
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
 export default {
   name:"People",

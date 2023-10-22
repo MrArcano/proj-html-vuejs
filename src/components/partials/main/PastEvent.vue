@@ -1,5 +1,5 @@
 <script>
-import { store } from '../../data/store';
+import { store } from '../../../data/store';
 
 export default {
   name: "PastEvent",
@@ -24,7 +24,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../scss/partials/var" as *;
+@use "../../../scss/partials/var" as *;
   .card-csm{
     width: calc(100% / 4);
     position: relative;

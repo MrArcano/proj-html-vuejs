@@ -1,6 +1,6 @@
 <script>
-import Menu from './partials/Menu.vue';
-import Hero from './partials/Hero.vue';
+import Menu from './partials/header/Menu.vue';
+import Hero from './partials/header/Hero.vue';
 
 export default {
   name: "Header",
