@@ -60,11 +60,9 @@ export default {
 <style lang="scss" scoped>
 @use "../scss/partials/var" as *;
   main{
-    border: 2px solid black;
-    min-height: 1000px; /* debug */
     & > div{
       margin: 8px 0;
-      border: 2px solid black;
+      // border: 2px solid black;
     }
   }
 </style>
