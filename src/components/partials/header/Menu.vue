@@ -69,7 +69,7 @@ import { store } from '../../../data/store';
     align-items: center;
 
     a{
-      color: $white-color;
+      color: $primary-color;
     }
 
     >.left{
@@ -100,8 +100,8 @@ import { store } from '../../../data/store';
       .shopping-btn{
         position: relative;
         .shopping-counter{
-          background-color: $white-color;
-          color: $orange-color;
+          background-color: $primary-color;
+          color: $secondary-color;
           width: 15px;
           height: 15px;
           border-radius: 50%;

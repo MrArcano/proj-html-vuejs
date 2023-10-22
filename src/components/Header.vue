@@ -23,7 +23,7 @@ export default {
 
   header{
     
-    color: $white-color;
+    color: $primary-color;
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 2px;

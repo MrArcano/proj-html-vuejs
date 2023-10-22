@@ -100,15 +100,15 @@ footer{
 
     h6, strong,
     .gold-text{
-      color: $gold-color;
+      color: $important-color;
     }
 
     .dark-orange-text{
-      color: $dark-orange-color;
+      color: $dark-secondary-color;
     }
 
     .green-cyan-text{
-      color: $green-cyan-color;
+      color: $quote-color;
     }
 
     p{

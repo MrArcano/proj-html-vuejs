@@ -32,7 +32,7 @@ export default {
     .left{
       text-align: center;
       h1{
-        color: $orange-color;
+        color: $secondary-color;
         margin: 0;
       }
     }
@@ -45,7 +45,7 @@ export default {
 
   }
   .events:not(:last-child){
-    border-bottom: 1px dotted $gold-color;
+    border-bottom: 1px dotted $important-color;
   }
 
 </style>

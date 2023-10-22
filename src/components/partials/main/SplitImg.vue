@@ -43,7 +43,7 @@ export default {
       left: 20%;
       transform: translateY(-50%);
 
-      color: $white-color;
+      color: $primary-color;
       font-size: 80px;
       line-height: 80px;
       font-weight: bold;

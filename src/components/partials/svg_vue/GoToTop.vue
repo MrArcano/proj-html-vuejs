@@ -14,7 +14,7 @@ export default {
 @use "../../../scss/partials/var" as *;
   .go-to-top-btn{
     cursor: pointer;
-    background-color: $white-color;
+    background-color: $primary-color;
     width: 36px;
     height: 36px;
     border-radius: 50%;

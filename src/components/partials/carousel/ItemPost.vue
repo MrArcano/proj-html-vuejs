@@ -17,7 +17,7 @@ export default {
 @use "../../../scss/partials/var" as *;
 
   .quote{
-    color: $gold-color;
+    color: $important-color;
     font-size: 12rem;
     height: 70px;
     line-height: 150px;

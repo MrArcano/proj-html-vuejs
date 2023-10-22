@@ -41,8 +41,8 @@ export default {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-color: $orange-color;
-        color: $white-color;
+        background-color: $secondary-color;
+        color: $primary-color;
         text-align: center;
         line-height: 50px;
         font-size: 0.7rem;
@@ -51,7 +51,7 @@ export default {
     .bottom{
       text-align: center;
       h5{
-        color: $gold-color;
+        color: $important-color;
         text-transform: uppercase;
       }
       .old-price{

@@ -49,8 +49,8 @@ export default {
       transition: opacity 0.5s;
       & > div{
         height: 100%;
-        background-color: $orange-color;
-        color: $white-color;
+        background-color: $secondary-color;
+        color: $primary-color;
 
         display: flex;
         flex-direction: column;
@@ -59,7 +59,7 @@ export default {
       }
     }
     a{
-      color: $white-color;
+      color: $primary-color;
       margin: 0 8px;
     }
   }

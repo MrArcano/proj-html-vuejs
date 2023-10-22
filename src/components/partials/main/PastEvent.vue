@@ -48,11 +48,11 @@ export default {
       span{
         width: 80px;
         height: 80px;
-        background-color: $orange-color;
+        background-color: $secondary-color;
         border-radius: 50%;
         text-align: center;
         line-height: 80px;
-        color: $white-color;
+        color: $primary-color;
         font-size: 32px;
       }
     }

@@ -51,7 +51,7 @@ export default {
       gap: 16px;
 
       & > span{
-        color: $white-color;
+        color: $primary-color;
       }
 
       .input-group{
@@ -71,8 +71,8 @@ export default {
         }
         .input-group-text{
           border-radius: 0;
-          color: $gold-color;
-          background-color: $white-color;
+          color: $important-color;
+          background-color: $primary-color;
         }
       }
       .btn-orange{

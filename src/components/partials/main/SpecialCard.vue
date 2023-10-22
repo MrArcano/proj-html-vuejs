@@ -30,6 +30,6 @@ export default {
   }
 
   .price{
-    color: $dark-orange-color;
+    color: $dark-secondary-color;
   }
 </style>
