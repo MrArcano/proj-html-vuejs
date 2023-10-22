@@ -98,10 +98,6 @@ footer{
       font-family: 'Noto Sans', sans-serif;
     }
 
-    h5{
-      color: $white-color;
-    }
-
     h6, strong,
     .gold-text{
       color: $gold-color;

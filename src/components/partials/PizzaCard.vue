@@ -25,6 +25,7 @@ export default {
 
   .card-csm{
     width: 250px;
+    margin: 0 auto;
     padding: 48px 0;
     .top{
       position: relative;

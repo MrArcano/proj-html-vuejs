@@ -245,13 +245,13 @@ export const store = reactive({
     {
       day: "03",
       month: "NOV",
-      text: "TERARAZZA PATIO DINING SPACE OPENING THIS WEEKEND",
+      text: "Terarazza patio dining space opening this weekend",
       locality: "204 E. Pizzetta Tommaso",
     },
     {
       day: "05",
       month: "NOV",
-      text: "SIENNA PRIVATE DINING ROOM WITH STÉPHANE BRUNN",
+      text: "Sienna private dining room with STÉPHANE BRUNN",
       locality: "204 E. Pizzetta Tommaso",
     },
   ]

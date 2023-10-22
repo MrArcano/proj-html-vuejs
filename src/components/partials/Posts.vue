@@ -26,7 +26,7 @@ export default {
           <div class="item-container">
             <span class="quote">&#8220;</span>
             <h5>&ldquo; {{ el.text }}  &rdquo;</h5>
-            <span class="source"> {{ el.source }} </span>
+            <span class="text-06-upper"> {{ el.source }} </span>
           </div>
         </div>
       </div>
@@ -69,11 +69,6 @@ export default {
         font-size: 12rem;
         height: 70px;
         line-height: 150px;
-      }
-      .source{
-        color: $orange-color;
-        font-size: 0.6rem;
-        font-weight: bold;
       }
     }
   }

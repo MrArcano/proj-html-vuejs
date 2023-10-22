@@ -35,8 +35,8 @@ export default {
 
 <template>
     <swiper
-    :slidesPerView="5"
-    :spaceBetween="30"
+    :slidesPerView="6"
+    :spaceBetween="10"
     :loop="true"
     :navigation="false"
     :grabCursor="true"
@@ -54,6 +54,5 @@ export default {
   </swiper>
 </template>
 
-<style>
-
+<style lang="scss" scoped>
 </style>
