@@ -74,11 +74,7 @@ import { store } from '../../../data/store';
 
     >.left{
       width: 15%;
-      .btn-orange{
-        background-color: $orange-color;
-        white-space: nowrap;
-        padding: 12px 28px;
-      }
+      
     }
     >.center{
       display: flex;

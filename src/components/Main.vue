@@ -7,6 +7,7 @@ import MenuSpecial from './partials/main/MenuSpecial.vue';
 import Brands from './partials/main/Brands.vue';
 import PizzaList from './partials/main/PizzaList.vue';
 import PizzaDeals from './partials/main/PizzaDeals.vue';
+import BookTable from './partials/main/BookTable.vue';
 
 export default {
   name: "Main",
@@ -18,7 +19,8 @@ export default {
     MenuSpecial,
     Brands,
     PizzaList,
-    PizzaDeals
+    PizzaDeals,
+    BookTable
   }
 }
 </script>
@@ -50,7 +52,7 @@ export default {
       <PizzaDeals />
     </div>
     <div>
-      <h1>Book table</h1>
+      <BookTable />
     </div>
   </main>
 </template>

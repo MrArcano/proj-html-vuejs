@@ -109,3 +109,14 @@ p{
   letter-spacing: 1px;
 }
 
+.btn-orange{
+  color: $white-color;
+  background-color: $orange-color;
+  white-space: nowrap;
+  padding: 12px 28px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 0.8rem;
+}
