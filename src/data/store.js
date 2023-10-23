@@ -238,22 +238,16 @@ export const store = reactive({
   pizzaDeals:[
     {
       date: "2023-11-02",
-      day: "02",
-      month: "NOV",
       text: "Traditional Neopolitan pies in Kyoto pizza mercato",
       locality: "204 E. Pizzetta Tommaso",
     },
     {
       date: "2023-11-03",
-      day: "03",
-      month: "NOV",
       text: "Terarazza patio dining space opening this weekend",
       locality: "204 E. Pizzetta Tommaso",
     },
     {
       date: "2023-11-05",
-      day: "05",
-      month: "NOV",
       text: "Sienna private dining room with STÉPHANE BRUNN",
       locality: "204 E. Pizzetta Tommaso",
     },
