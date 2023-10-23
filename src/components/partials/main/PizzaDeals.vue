@@ -13,6 +13,16 @@ export default {
       store
     }
   },
+  methods: {
+    getArrayNumEl(array,num){
+      let newArray = array;
+      if(newArray.length > num){
+        // ultimi 3 elementi dell'array
+        newArray = newArray.slice(-3);
+      }
+      return newArray;
+    }
+  },
 }
 </script>
 
@@ -23,7 +33,7 @@ export default {
           <span class="text-06-upper">MADE WITH LOVE</span>
           <h2>DELISH PIZZA DEALS</h2>
 
-          <NewEvent v-for="(el,index) in store.pizzaDeals" :key="'pizza_deal_'+index" :data="el" />
+          <NewEvent v-for="(el,index) in getArrayNumEl(store.pizzaDeals,3)" :key="'pizza_deal_'+index" :data="el" />
           
         </div>
       </div>
@@ -47,7 +57,6 @@ export default {
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-
       }
     }
     img{

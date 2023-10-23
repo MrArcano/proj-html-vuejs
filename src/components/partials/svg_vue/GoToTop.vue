@@ -20,6 +20,7 @@ export default {
     border-radius: 50%;
     text-align: center;
     line-height: 30px;
+    box-shadow: 0 0 2px black;
     svg{
       width: 16px;
     }

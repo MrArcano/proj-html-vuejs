@@ -254,5 +254,23 @@ export const store = reactive({
       text: "Sienna private dining room with STÉPHANE BRUNN",
       locality: "204 E. Pizzetta Tommaso",
     },
+    {
+      day: "05",
+      month: "NOV",
+      text: "Sienna private dining room with STÉPHANE BRUNN",
+      locality: "204 E. Pizzetta Tommaso",
+    },
+    {
+      day: "05",
+      month: "NOV",
+      text: "Sienna private dining room with STÉPHANE BRUNN",
+      locality: "204 E. Pizzetta Tommaso",
+    },
+    {
+      day: "05",
+      month: "NOV",
+      text: "Sienna private dining room with STÉPHANE BRUNN",
+      locality: "204 E. Pizzetta Tommaso",
+    },
   ]
 })

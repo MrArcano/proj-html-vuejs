@@ -1,0 +1,100 @@
+// Icon svg
+// -----------------------------------------------
+.icon-white{
+  fill: $primary-color;
+  margin-right: 4px;
+}
+// -----------------------------------------------
+
+// Btn default orange
+// -----------------------------------------------
+.btn-orange{
+  color: $primary-color;
+  background-color: $secondary-color;
+  white-space: nowrap;
+  padding: 12px 28px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 0.8rem;
+}
+// -----------------------------------------------
+
+
+.text-06-upper{
+  color: #d2401e;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text-06{
+  color: #d2401e;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+}
+
+// Bg star
+// -----------------------------------------------
+.bg-star{
+  background-image: url("/img/cielostellato.PNG");
+  background-position: bottom;
+}
+
+.bg-dot{
+  background-image: radial-gradient($dot-color 1px, transparent 1px), radial-gradient($dot-color 1px, transparent 1px);
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+  background-color: $primary-color;
+}
+// -----------------------------------------------
+
+// Carousel setting
+// -----------------------------------------------
+.btn-white{
+  background-color: $primary-color;
+  color: $secondary-color;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  padding-top: 16px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 0;
+  opacity: 1;
+}
+
+.carousel-control-prev{
+  .btn-white{
+    transform: rotate(90deg);
+    position: absolute;
+    left: -60px;
+  }
+}
+.carousel-control-next{
+  .btn-white{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -60px;
+  }
+}
+
+.carousel-indicators{
+  margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: $important-color;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+// -----------------------------------------------
