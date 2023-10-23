@@ -1,9 +1,16 @@
 <script>
+import { DateTime } from "luxon";
+
 export default {
   name: "NewEvent",
   props:{
     data: Object,
-  }
+  },
+  data() {
+    return {
+      dt : DateTime.fromISO(this.data.date)
+    }
+  },
 }
 </script>
 
@@ -11,8 +18,8 @@ export default {
 
   <div class="events d-flex">
     <div class="left">
-      <h1>{{ data.day }}</h1>
-      <h5>{{ data.month }}</h5>
+      <h1>{{ dt.setLocale('en').toFormat('dd') }}</h1>
+      <h5>{{ dt.setLocale('en').toFormat('LLL') }}</h5>
     </div>
     <div class="right ms-5">
       <h5 class="text-uppercase">{{ data.text }}</h5>
@@ -34,6 +41,9 @@ export default {
       h1{
         color: $secondary-color;
         margin: 0;
+      }
+      h5{
+        text-transform: uppercase;
       }
     }
 
